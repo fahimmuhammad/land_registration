@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <HBox alignment="CENTER" spacing="10">
+      <Label text="Upload File:" />
+      <Button text="Upload" />
+   </HBox>
+   <TextField prefWidth="150.0" promptText="Tracking No." editable="false"  />
+   <TextField prefWidth="150.0" promptText="Location" />
+   <TextField prefWidth="150.0" promptText="Owner" />
+   <TextField prefWidth="150.0" promptText="Price" />
+   <TextField prefWidth="150.0" promptText="Area" />
+   <Button text="Submit" />
+</VBox>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar>
+         <menus>
+            <Menu text="File">
+               <items>
+                  <Menu text="Manage Files">
+                     <items>
+                        <MenuItem text="Select Folder" />
+                        
+                        <MenuItem text="View Files" />
+                     </items>
+                  </Menu>
+                  <Menu text="Title Search">
+                     <items>
+                        <Menu>
+                           <MenuItem text="Search"/>
+                           <MenuItem>
+<!--                              <content>
+                                 <TextField />
+                                 <Button text="Search" />
+                              </content>-->
+                           </MenuItem>
+                        </Menu>
+                     </items>
+                  </Menu>
+                  <Menu text="Application Submission and Tracking">
+                     <items>
+                        <MenuItem text="New Application">
+<!--                           <items>
+                              <MenuItem text="Upload Documents" />
+                              <MenuItem text="Enter Land Details" />
+                           </items>
+                           <Button text="Submit" />-->
+                        </MenuItem>
+                        <MenuItem text="Track Application">
+<!--                           <items>
+                              <MenuItem text="Enter Tracking Number" />
+                           </items>
+                           <Button text="Search" />-->
+                        </MenuItem>
+                     </items>
+                  </Menu>
+               </items>
+            </Menu>
+            <Menu text="Communication">
+               <items>
+                  <MenuItem text="Messaging and File Sharing" />
+               </items>
+            </Menu>
+            <Menu text="Tools">
+               <items>
+                  <MenuItem text="Regulatory Compliance Checklists" />
+                  <Menu text="GIS">
+                     <items>
+                        <MenuItem text="Listed Lands" />
+                        <MenuItem text="Select Land" />
+                        <MenuItem text="Visualize Boundary" />
+                     </items>
+                  </Menu>
+               </items>
+            </Menu>
+            <Menu text="View">
+               <items>
+                  <Menu text="Notifications">
+                     <items>
+                        <MenuItem text="Receive Email Notification" />
+                        <MenuItem text="Receive Text Notification" />
+                     </items>
+                  </Menu>
+                  <Menu text="Analytics and Reporting">
+                     <items>
+                        <MenuItem text="Show Land Prices Chart" />
+                        <MenuItem text="Show Application Processing Time" />
+                     </items>
+                  </Menu>
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <!-- Add content for the center of the dashboard -->
+      <!-- You can add additional content here -->
+   </center>
+</BorderPane>
